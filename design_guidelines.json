@@ -1,0 +1,215 @@
+{
+  "brand_identity": {
+    "name": "EcoLens",
+    "mission": "Connecting people with nature through technology and action.",
+    "tone": "Vibrant, Hopeful, Actionable, Organic",
+    "theme_mode": "light"
+  },
+  "design_system": {
+    "colors": {
+      "palette": {
+        "primary": {
+          "DEFAULT": "#15803d",
+          "foreground": "#ffffff",
+          "hover": "#166534",
+          "light": "#86efac"
+        },
+        "secondary": {
+          "DEFAULT": "#f5f5f4",
+          "foreground": "#1c1917",
+          "dark": "#e7e5e4"
+        },
+        "accent": {
+          "DEFAULT": "#ea580c",
+          "foreground": "#ffffff",
+          "soft": "#ffedd5"
+        },
+        "background": {
+          "DEFAULT": "#fafaf9",
+          "paper": "#ffffff",
+          "subtle": "#f0fdf4"
+        },
+        "text": {
+          "primary": "#0c0a09",
+          "secondary": "#57534e",
+          "muted": "#a8a29e",
+          "brand": "#14532d"
+        },
+        "success": "#16a34a",
+        "warning": "#d97706",
+        "error": "#dc2626",
+        "info": "#0ea5e9"
+      },
+      "tailwind_config_extension": {
+        "colors": {
+          "border": "hsl(var(--border))",
+          "input": "hsl(var(--input))",
+          "ring": "hsl(var(--ring))",
+          "background": "hsl(var(--background))",
+          "foreground": "hsl(var(--foreground))",
+          "primary": {
+            "DEFAULT": "hsl(var(--primary))",
+            "foreground": "hsl(var(--primary-foreground))"
+          },
+          "secondary": {
+            "DEFAULT": "hsl(var(--secondary))",
+            "foreground": "hsl(var(--secondary-foreground))"
+          },
+          "destructive": {
+            "DEFAULT": "hsl(var(--destructive))",
+            "foreground": "hsl(var(--destructive-foreground))"
+          },
+          "muted": {
+            "DEFAULT": "hsl(var(--muted))",
+            "foreground": "hsl(var(--muted-foreground))"
+          },
+          "accent": {
+            "DEFAULT": "hsl(var(--accent))",
+            "foreground": "hsl(var(--accent-foreground))"
+          },
+          "popover": {
+            "DEFAULT": "hsl(var(--popover))",
+            "foreground": "hsl(var(--popover-foreground))"
+          },
+          "card": {
+            "DEFAULT": "hsl(var(--card))",
+            "foreground": "hsl(var(--card-foreground))"
+          }
+        },
+        "borderRadius": {
+          "lg": "var(--radius)",
+          "md": "calc(var(--radius) - 2px)",
+          "sm": "calc(var(--radius) - 4px)"
+        }
+      }
+    },
+    "typography": {
+      "font_family": {
+        "heading": "\"Manrope\", sans-serif",
+        "body": "\"Manrope\", sans-serif",
+        "mono": "\"JetBrains Mono\", monospace"
+      },
+      "import_url": "https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap",
+      "scale": {
+        "h1": "text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight",
+        "h2": "text-3xl md:text-4xl font-bold tracking-tight",
+        "h3": "text-2xl md:text-3xl font-bold",
+        "h4": "text-xl font-semibold",
+        "body_lg": "text-lg leading-relaxed",
+        "body_base": "text-base leading-relaxed text-stone-600",
+        "caption": "text-sm text-stone-500"
+      }
+    },
+    "spacing_layout": {
+      "container_padding": "px-4 md:px-8 lg:px-12",
+      "section_spacing": "py-12 md:py-20",
+      "card_padding": "p-6 md:p-8",
+      "radius": {
+        "default": "1rem",
+        "button": "9999px",
+        "card": "1.5rem"
+      }
+    },
+    "shadows": {
+      "card": "0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)",
+      "card_hover": "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)",
+      "soft": "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)"
+    }
+  },
+  "assets": {
+    "images": {
+      "hero_bg": "https://images.unsplash.com/photo-1760493828304-cf91b8a6d251?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzV8MHwxfHNlYXJjaHw0fHxuYXR1cmUlMjBwbGFudCUyMGxlYWYlMjBjbG9zZSUyMHVwJTIwdmlicmFudHxlbnwwfHx8fDE3NzE0OTA0MDF8MA&ixlib=rb-4.1.0&q=85",
+      "hero_alt": "https://images.unsplash.com/photo-1759417567823-64d74c36e78f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzV8MHwxfHNlYXJjaHwxfHxuYXR1cmUlMjBwbGFudCUyMGxlYWYlMjBjbG9zZSUyMHVwJTIwdmlicmFudHxlbnwwfHx8fDE3NzE0OTA0MDF8MA&ixlib=rb-4.1.0&q=85",
+      "community_event": "https://images.pexels.com/photos/13997925/pexels-photo-13997925.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "registration_bg": "https://images.unsplash.com/photo-1633863855254-81752722e690?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTN8MHwxfHNlYXJjaHwyfHxjb21tdW5pdHklMjB0cmVlJTIwcGxhbnRpbmclMjBldmVudCUyMHBlb3BsZXxlbnwwfHx8fDE3NzE0OTA0MDJ8MA&ixlib=rb-4.1.0&q=85",
+      "farmer_guide": "https://images.pexels.com/photos/4975400/pexels-photo-4975400.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "plant_detection_demo": "https://images.unsplash.com/photo-1762596611811-196b1aa4578c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzV8MHwxfHNlYXJjaHwzfHxuYXR1cmUlMjBwbGFudCUyMGxlYWYlMjBjbG9zZSUyMHVwJTIwdmlicmFudHxlbnwwfHx8fDE3NzE0OTA0MDF8MA&ixlib=rb-4.1.0&q=85"
+    },
+    "icons": {
+      "library": "lucide-react",
+      "style": "Rounded, consistent stroke width (2px)",
+      "common_mapping": {
+        "plant": "Leaf",
+        "map": "Map",
+        "event": "CalendarHeart",
+        "user": "UserCircle",
+        "points": "Sprout",
+        "weather": "CloudSun",
+        "upload": "UploadCloud"
+      }
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-8 py-6 text-lg font-semibold shadow-lg transition-all hover:scale-105 active:scale-95",
+      "secondary": "bg-secondary text-secondary-foreground hover:bg-secondary/80 rounded-full px-6 py-4 font-medium",
+      "outline": "border-2 border-primary text-primary hover:bg-primary/10 rounded-full px-6 py-4 font-medium",
+      "ghost": "hover:bg-stone-100 text-stone-600 rounded-full px-4 py-2"
+    },
+    "cards": {
+      "base": "bg-white rounded-[1.5rem] border border-stone-100 shadow-sm hover:shadow-md transition-shadow duration-300",
+      "interactive": "cursor-pointer hover:border-primary/20 hover:shadow-lg hover:-translate-y-1 transition-all duration-300",
+      "glass": "bg-white/80 backdrop-blur-md border border-white/20 shadow-xl"
+    },
+    "inputs": {
+      "default": "rounded-xl border-stone-200 bg-stone-50 focus:bg-white focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all p-4"
+    },
+    "navigation": {
+      "wrapper": "sticky top-4 z-50 mx-auto max-w-7xl px-4",
+      "container": "bg-white/90 backdrop-blur-xl border border-stone-200/50 shadow-sm rounded-full px-6 py-3 flex items-center justify-between"
+    }
+  },
+  "layout_strategies": {
+    "landing_page": {
+      "hero": "Full height (min-h-[80vh]) with large organic typography. Image on right or background with overlay.",
+      "features": "Bento grid layout (Gridcols-3) showcasing the 5 main tabs.",
+      "cta": "Centered, high contrast, gentle floating animation."
+    },
+    "dashboard": {
+      "structure": "Top navigation bar (no sidebar to keep it airy). Content contained in max-w-7xl.",
+      "grid": "Responsive grid (grid-cols-1 md:grid-cols-12) with generous gaps (gap-6 md:gap-8)."
+    },
+    "bento_grid": {
+      "container": "grid grid-cols-1 md:grid-cols-3 gap-6",
+      "tall_item": "md:row-span-2",
+      "wide_item": "md:col-span-2"
+    }
+  },
+  "feature_specific_guidelines": {
+    "plant_detection": {
+      "upload_zone": "Border-dashed border-2 border-primary/30 bg-primary/5 rounded-3xl h-64 flex flex-col items-center justify-center hover:bg-primary/10 transition-colors cursor-pointer relative overflow-hidden",
+      "result_card": "Split layout: Image on left, Analysis on right. Use progress bars for 'Health Score'."
+    },
+    "climate_map": {
+      "map_container": "rounded-3xl overflow-hidden shadow-inner border border-stone-200 h-[600px] w-full relative",
+      "overlay_card": "absolute top-4 right-4 w-80 bg-white/90 backdrop-blur-md p-4 rounded-2xl shadow-lg"
+    },
+    "events_page": {
+      "card_style": "Image top (aspect-video), Content bottom. Date badge floating on image.",
+      "calendar_view": "Clean, minimalistic grid. Current day highlighted with primary circle."
+    },
+    "eco_points": {
+      "leaderboard": "List view with 'Gold', 'Silver', 'Bronze' highlighting. Avatars strictly circular.",
+      "progress_circle": "Use SVG circles with stroke-dasharray for animated point accumulation."
+    },
+    "farmer_guide": {
+      "layout": "Accordion style for FAQs/Tips. Clean typography is crucial here. Use icons to categorize (Pest, Soil, Crop)."
+    }
+  },
+  "universal_guidelines": [
+    "You tend to converge toward generic, 'on distribution' outputs. Avoid this.",
+    "Dark colors look good when used independently without gradients. DO NOT use dark colors as gradients.",
+    "Don't make generic centered layouts, simplistic gradients, and uniform styling.",
+    "Create depth through layered design elements with z-index hierarchy.",
+    "Use glass-morphism effects with backdrop filters (12-24px blur).",
+    "You MUST NOT apply universal transition. Eg: 'transition: all'. This results in breaking transforms. Always add transitions for specific interactive elements.",
+    "You MUST NOT center align the app container, ie do not add '.App { text-align: center; }' in the css file.",
+    "Always use modern button styles like pill-shaped, or sharp button with interaction animations & color relevant to the app style.",
+    "NEVER: use AI assistant Emoji characters like 🤖🧠 etc for icons. Use Lucide icons.",
+    "Every interaction needs micro-animations - hover states, transitions.",
+    "Use 2-3x more spacing than feels comfortable. Cramped designs look cheap.",
+    "All interactive and key informational elements MUST include a 'data-testid' attribute.",
+    "Use 'sonner' for toasts.",
+    "Prioritize using pre-existing components from src/components/ui when applicable."
+  ]
+}
